@@ -53,7 +53,7 @@ send to Riak Core.
     bin/banjo console
 
 ### Play a Note (from the Erlang console)
-     
+
     play(78).
 
 ### Play a Midi Tune
@@ -71,3 +71,11 @@ If you want to run multiple nodes on a single computer, you can:
 4. Start the new node.
 5. Join the new node to the existing node from the Erlang console: `join('banjo1@hostname').`
 6. Then, play a midi tune, which should play across both nodes: `play("../../midi/mario.mid").`
+
+# Contributors
+
++ Rusty Klophaus [http://github.com/rustyio](http://github.com/rustyio) - original author of Basho Banjo
++ Basho [http://github.com/basho](http://github.com/basho) - Riak Core
++ Jim Menard [https://github.com/jimm/erlang-midilib](https://github.com/jimm/erlang-midilib) - author of Erlang Midi library
++ Sam Elliott [https://github.com/lenary](https://github.com/lenary)
++ John Kemp [https://github.com/frumioj](https://github.com/frumioj)
