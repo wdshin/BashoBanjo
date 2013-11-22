@@ -45,6 +45,7 @@ send to Riak Core.
 
     git clone https://github.com/rklophaus/BashoBanjo.git
     cd BashoBanjo
+    rebar deps get
     make rel
 
 ### Start Basho Banjo
