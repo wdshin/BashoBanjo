@@ -43,7 +43,7 @@ send to Riak Core.
 
 ### Get the Code and Compile
 
-    git clone https://github.com/rklophaus/BashoBanjo.git
+    git clone git@github.com:rustyio/BashoBanjo.git
     cd BashoBanjo
     rebar deps get
     make rel
